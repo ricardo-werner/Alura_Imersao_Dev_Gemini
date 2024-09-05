@@ -1,0 +1,7 @@
+/* index.css - Arquivo principal */
+
+@import "global.css";
+@import "header.css";
+@import "history.css";
+@import "sections.css";
+@import "footer.css";

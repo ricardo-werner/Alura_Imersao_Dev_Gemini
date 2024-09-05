@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --font-family: Inter, sans-serif;
+
+  --h1-color: #e44e09; /*Coral Laranja — Um laranja-cor-de-coral ideal para chamar atenção em textos.*/
+  --h2-color: #47C5D6; /*Turquesa Brilhante — Um turquesa lembrando águas tropicais. */
+  --h3-color: #F2854C; /*Laranja Oxidado  — Um laranja inspirado em metais expostos e corais vivos.*/
+  --h6-color: #4A6978; /*Azul Marinho — Um azul marinho para destacar subtítulos. */
+
+  --text-color: #FFFFFF;
+  --text-color-p: #F4A63C; /*Dourado Solar — Um dourado inspirado pela luz do sol penetrando a água. */
+  --text-color-span: #7DD9C5; /*Verde Água Vibrante — Um verde água para dar um toque moderno e fresco. */
+  --text-color-label:#197BA0;
+  --text-color-nav: #47C5D6; /*Turquesa Brilhante — Um turquesa lembrando águas tropicais.*/
+  --text-color-citacao: #7645FF; /*Azul Elétrico — Um azul elétrico para destacar citações. */
+  
+  
+  --color-primary: #1A4C63; /* Azul Profundo — Um azul mais vibrante para representar o oceano com profundidade */
+  --text-color-secondary: #F4A63C; /*Dourado Solar — Um dourado inspirado pela luz do sol penetrando a água. */
+  --text-color-tertiary: #9A6538; /*Marrom Ferrugem — Um tom de ferrugem destacar os elementos enferrujados.  */
+  --text-color-quaternary: #61A478; /*Verde Alga Intenso — Um verde trazendo mais energia, inspirado nas algas. */
+  --text-color-sextary: #47C5D6; /*Turquesa Brilhante — Um turquesa lembrando águas tropicais. */
+  --text-color-septenary: #F2854C; /*Laranja Oxidado  — Um laranja inspirado em metais expostos e corais vivos. */
+  --text-color-octonary: #FF8A53; /*Coral Laranja — Um laranja-cor-de-coral ideal para chamar atenção em textos. */
+  --text-color-nonary: #4C5F6A; /*Cinza Azulado Brilhante — Um cinza mais claro mantendo a suavidade. */
+  
+
+  --text: 400 1rem var(--font-family);
+  --text-sm: 400 0.875rem var(--font-family);
+  --text-lg: 400 1.25rem var(--font-family);
+  --text-xl: 400 1.5rem var(--font-family);
+}
+
+#background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("../assets/bg_naufragio_mergulho.jpg") no-repeat center
+    center/cover;
+  filter: blur(5px) brightness(0.8);
+  z-index: -1;
+}
+
+body {
+  font-family: var(--font-family);
+  font-size: 1rem;
+  margin: 3rem;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+  width: 100%;
+}
+
+.grid-item {
+  border: 1px solid #9A6538;
+  padding: 1rem;
+  text-align: center;
+  color: var(--text-color);
+}
+
+.grid-item > h3 {
+  margin-bottom: 1rem;
+  color: var(--h3-color);
+}
+
+.grid-item > img {
+  width: 18rem;
+  height: auto;
+  padding: 1rem;
+}
+
+.grid-item > label {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: var(--text-color-label);
+  font-weight: bolder;
+  font-size: 1rem;
+}
+
+.grid-item label > a {
+  text-decoration: none;
+  color: var(--text-color-label);
+}
+
+.grid-item > p {
+  text-align: justify;
+  margin: 0.5rem auto;
+  color: var(--text-color-p);
+}

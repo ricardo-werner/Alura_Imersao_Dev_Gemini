@@ -1,0 +1,30 @@
+.history {
+  text-align: center;
+}
+
+.history h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: var(--h1-color);
+}
+
+.history h2 {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  color: var(--h2-color);
+}
+
+.history p {
+  color: var(--text-color-p);
+  text-align: justify;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  margin-bottom: 2rem;
+}
+
+.history #citacaoPagina {
+  font-size: 1.25rem;
+  font-style: italic;
+  margin-bottom: 2rem;
+  color: var(--text-color-citacao);
+}
