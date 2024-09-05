@@ -19,16 +19,6 @@
   --text-color-nav: #47C5D6; /*Turquesa Brilhante — Um turquesa lembrando águas tropicais.*/
   --text-color-citacao: #7645FF; /*Azul Elétrico — Um azul elétrico para destacar citações. */
   
-  
-  --color-primary: #1A4C63; /* Azul Profundo — Um azul mais vibrante para representar o oceano com profundidade */
-  --text-color-secondary: #F4A63C; /*Dourado Solar — Um dourado inspirado pela luz do sol penetrando a água. */
-  --text-color-tertiary: #9A6538; /*Marrom Ferrugem — Um tom de ferrugem destacar os elementos enferrujados.  */
-  --text-color-quaternary: #61A478; /*Verde Alga Intenso — Um verde trazendo mais energia, inspirado nas algas. */
-  --text-color-sextary: #47C5D6; /*Turquesa Brilhante — Um turquesa lembrando águas tropicais. */
-  --text-color-septenary: #F2854C; /*Laranja Oxidado  — Um laranja inspirado em metais expostos e corais vivos. */
-  --text-color-octonary: #FF8A53; /*Coral Laranja — Um laranja-cor-de-coral ideal para chamar atenção em textos. */
-  --text-color-nonary: #4C5F6A; /*Cinza Azulado Brilhante — Um cinza mais claro mantendo a suavidade. */
-  
 
   --text: 400 1rem var(--font-family);
   --text-sm: 400 0.875rem var(--font-family);
