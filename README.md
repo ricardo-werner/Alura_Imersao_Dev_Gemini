@@ -1,7 +1,4 @@
-# Título do Projeto
-
-  ##Mergulhos Históricos: Uma Abordagem Estratégica
-
+# Mergulhos Históricos: Uma Abordagem Estratégica
 
 ### 📜 Sobre o Projeto
 
@@ -37,15 +34,15 @@ Foi proposto neste projeto foi criar uma página de conteúdo livre, utilizando 
 
 ### 🧩 Desafio
 
-####Otimizando a gestão de conteúdos textuais através de JavaScript
+Otimizando a gestão de conteúdos textuais através de JavaScript
 
 A minha ideia inicial, era de desenvolver uma página que vizava a facilidade de manutenção futura e otimizar a gestão de conteúdos textuais, tornando-o mais dinâmico e fácil de manter. Para isso, com a ajuda do Google Gemini, desenvolvemos uma solução personalizada utilizando JavaScript e a biblioteca Fetch API. A principal funcionalidade consiste em carregar dados de um arquivo JSON e renderizá-los diretamente nas páginas HTML, eliminando a necessidade de editar o código manualmente a cada atualização.
 
-####Desafios e Soluções
+Desafios e Soluções
 
 Um dos principais desafios foi garantir a correta formatação dos textos, especialmente em relação às quebras de linha. Para solucionar este problema, implementamos um mecanismo de substituição de caracteres de nova linha (\n) por tags HTML <br>, garantindo assim uma apresentação visual mais agradável e consistente.
 
-####Resultados e Próximos Passos
+Resultados e Próximos Passos
 
 A implementação desta solução trouxe diversos benefícios, como a centralização dos conteúdos em um único arquivo, a agilidade na atualização da página e a redução de erros humanos. Como próximos passos, planejo expandir a funcionalidade de cadastrar novos pontos de mergulho e naufrágios, centralizar todos os cadastros em uma tabela com campo de pesquisa e explorar a possibilidade de utilizar outras boas práticas para a manutenção do código.
 
@@ -94,26 +91,21 @@ Desenvolver este projeto foi uma experiência extremamente enriquecedora, propor
 
 2. Abra o projeto no Visual Studio Code e ative o Go Live:
 
-   ```bash
    <p align="center">
-    <img width="480" src="assets/to_readme/GoLive.jpg" alt="Ativando o Go Live">
+    <img width="280" src="assets/to_readme/GoLive.jpg" alt="Ativando o Go Live">
    </p>
 
    <p align="center">
-    <img width="480" src="assets/to_readme/GoLiveOn.jpg" alt="Go Live ativado">
+    <img width="280" src="assets/to_readme/GoLiveOn.jpg" alt="Go Live ativado">
    </p>
-
-   ```
 
 3. Visualize o resultado na página web:
 
-   ```bash
    <p align="center">
-    <img width="480" src="assets/to_readme/resultadoWeb.PNG" alt="Resultado na Web">
+    <img width="680" src="assets/to_readme/resultadoWeb.PNG" alt="Resultado na Web">
    </p>
-   ```
 
 ### 🙋‍♂️ Autor
 
-Ricardo Werner
-Dev em Desenvolvimento
+Ricardo Werner<br>
+Desenvolvedor Front-End - em Desenvolvimento
