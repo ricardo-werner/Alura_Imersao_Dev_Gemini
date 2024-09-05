@@ -1,12 +1,11 @@
 # Título do Projeto
 
-Uma breve descrição sobre o que esse projeto faz e para quem ele é
+  ##Mergulhos Históricos: Uma Abordagem Estratégica
 
-## Aplicação de Criptografia de Textos
 
 ### 📜 Sobre o Projeto
 
-Este projeto consiste em uma aplicação web para criptografia e descriptografia de textos, permitindo a troca de mensagens seguras entre usuários que conhecem a chave de criptografia utilizada.
+Foi proposto neste projeto foi criar uma página de conteúdo livre, utilizando o Google Gemini, como auxiliar na estruturação, explicações de código e construção de ideias.
 
 ### 🔗 Links Úteis
 
@@ -15,49 +14,62 @@ Este projeto consiste em uma aplicação web para criptografia e descriptografia
 
 ### ✅ Status do Projeto
 
-**Concluído**
+**Em Desenvolvimento**
 
-### 🎥 Demonstração
 
-#### Tela do Enigma - Criptógrafo
+#### Tela do Cabeçalho
+
 <p align="center">
-  <img width="480" src="to_readme/criptografia.jpg" alt="Tela do Enigma - Criptógrafo">
+  <img width="480" src="./assets/to_readme/tela1.PNG" alt="Tela Inicial">
 </p>
 
-#### Vídeo do Funcionamento do Enigma - Criptógrafo
+#### Tela do Conteúdo
+
 <p align="center">
-  <img width="480" src="to_readme/criptografia.gif" alt="Vídeo do Funcionamento do Enigma - Criptógrafo">
+  <img width="480" src="./assets/to_readme/tela2.PNG" alt="Tela Inicial">
+</p>
+
+#### Pagina de acesso pelo deploy no Github
+
+<p>
+  https://ricardo-werner.github.io/Alura_Imersao_Dev_Gemini/
 </p>
 
 ### 🧩 Desafio
 
-O desafio proposto neste projeto foi criar uma aplicação que criptografa textos, permitindo a troca de mensagens secretas entre usuários que conhecem a chave de criptografia utilizada.
+####Otimizando a gestão de conteúdos textuais através de JavaScript
+
+A minha ideia inicial, era de desenvolver uma página que vizava a facilidade de manutenção futura e otimizar a gestão de conteúdos textuais, tornando-o mais dinâmico e fácil de manter. Para isso, com a ajuda do Google Gemini, desenvolvemos uma solução personalizada utilizando JavaScript e a biblioteca Fetch API. A principal funcionalidade consiste em carregar dados de um arquivo JSON e renderizá-los diretamente nas páginas HTML, eliminando a necessidade de editar o código manualmente a cada atualização.
+
+####Desafios e Soluções
+
+Um dos principais desafios foi garantir a correta formatação dos textos, especialmente em relação às quebras de linha. Para solucionar este problema, implementamos um mecanismo de substituição de caracteres de nova linha (\n) por tags HTML <br>, garantindo assim uma apresentação visual mais agradável e consistente.
+
+####Resultados e Próximos Passos
+
+A implementação desta solução trouxe diversos benefícios, como a centralização dos conteúdos em um único arquivo, a agilidade na atualização da página e a redução de erros humanos. Como próximos passos, planejo expandir a funcionalidade de cadastrar novos pontos de mergulho e naufrágios, centralizar todos os cadastros em uma tabela com campo de pesquisa e explorar a possibilidade de utilizar outras boas práticas para a manutenção do código.
 
 ### 📝 Requisitos da Aplicação
 
-| Item  | Descrição                                                                 |
-|-------|---------------------------------------------------------------------------|
-|  1    | A aplicação deve ser desenvolvida em HTML, CSS e JavaScript.              |
-|  2    | A aplicação deve seguir os cartões do Trello.                             |
-|  3    | Modelagem do layout, formatos, tipografias, cores e organização no Figma. |
-|  3.1  | Opcional: Modelagem de modo livre.                                        |
-|  4    | Funcionalidade com letras minúsculas.                                     |
-|  5    | Não deve utilizar letras com acentos ou caracteres especiais.             |
-|  6    | Capacidade de converter para a versão criptografada e vice-versa.         |
-|  7    | Implementação de botão para copiar o texto criptografado/descriptografado.|
+| Item | Descrição                                                                 |
+| ---- | ------------------------------------------------------------------------- |
+| 1    | A aplicação deve ser desenvolvida em HTML, CSS e JavaScript.              |
+| 2    | A aplicação deve utilizar apoio da IA Gemini (Google)                     |
+| 3    | Modelagem do layout, formatos, tipografias, cores e organização livregma. |
+
+|
 
 ### 🚀 Plano do Projeto
 
 No desenvolvimento desta aplicação, foram aplicados os seguintes conceitos:
 
-| Item  | Descrição                                   |
-|-------|---------------------------------------------|
-|  1    | HTML                                        |
-|  2    | CSS                                         |
-|  3    | JavaScript                                  |
-|  4    | Gerenciamento de Projetos (Trello)          |
-|  5    | Prototipagem (Figma)                        |
-|  6    | Criptografia e Descriptografia de Textos    |
+| Item | Descrição                                           |
+| ---- | --------------------------------------------------- |
+| 1    | HTML                                                |
+| 2    | CSS                                                 |
+| 3    | JavaScript                                          |
+| 4    | IA Gemini (Google)                                  |
+| 5    | Aplicação de estruturação para manutenção do código |
 
 ### 🛠 Tecnologias Utilizadas
 
@@ -65,6 +77,7 @@ No desenvolvimento desta aplicação, foram aplicados os seguintes conceitos:
 - **HTML**
 - **CSS**
 - **JavaScript**
+- **Google Gemini**
 
 ### 💡 Reflexões
 
@@ -73,27 +86,34 @@ Desenvolver este projeto foi uma experiência extremamente enriquecedora, propor
 ### 📦 Como Executar o Projeto
 
 1. Clone o repositório:
+
    ```bash
-   git clone https://github.com/xxxxxx/foto.git
+    https://github.com/ricardo-werner/Alura_Imersao_Dev_Gemini.git
+
+   ```
 
 2. Abra o projeto no Visual Studio Code e ative o Go Live:
-    ```bash
+
+   ```bash
    <p align="center">
-     <img width="480" src="to_readme/golive.jpg" alt="Ativando o Go Live">
+    <img width="480" src="assets/to_readme/GoLive.jpg" alt="Ativando o Go Live">
    </p>
 
    <p align="center">
-     <img width="480" src="to_readme/goliveon.jpg" alt="Go Live ativado">
+    <img width="480" src="assets/to_readme/GoLiveOn.jpg" alt="Go Live ativado">
    </p>
+
+   ```
 
 3. Visualize o resultado na página web:
 
-    ```bash
+   ```bash
    <p align="center">
-     <img width="480" src="to_readme/criptografia.jpg" alt="Resultado na Web">
+    <img width="480" src="assets/to_readme/resultadoWeb.PNG" alt="Resultado na Web">
    </p>
-
+   ```
 
 ### 🙋‍♂️ Autor
+
 Ricardo Werner
 Dev em Desenvolvimento
