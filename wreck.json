@@ -1,0 +1,38 @@
+[
+{
+  "tituloWreck": "Vapor Bahia",
+  "localWreck": "Ponta de Pedras, PE",
+  "imgWreck": "../assets/naufragio/Nau_Fotvapbahia.jpg",
+  "linkWreck": "https://www.naufragiosdobrasil.com.br/naufvaporbahia.htm"
+},
+{
+  "tituloWreck": "Pinguino",
+  "localWreck": "Costa Verde, RJ",
+  "imgWreck": "../assets/naufragio/Nau_FnPinguino.jpg",
+  "linkWreck": "https://www.naufragiosdobrasil.com.br/naufpinguino.htm"
+},
+{
+  "tituloWreck": "Príncipe das Astúrias",
+  "localWreck": "Ilha Bela, SP",
+  "imgWreck": "../assets/naufragio/Nau_FNPrincipAsturias.jpg",
+  "linkWreck": "https://www.naufragiosdobrasil.com.br/naufprincipeasturias.htm"
+},
+{
+  "tituloWreck": "SS Thistlegorm",
+  "localWreck": "Mar Vermelho, Egito",
+  "imgWreck": "../assets/naufragio/Nau_SsThistlegorm.jpeg",
+  "linkWreck": "https://www.naufragiosdobrasil.com.br/especial%20Thistlegorm.htm"
+},
+{
+  "tituloWreck": "USS Liberty",
+  "localWreck": "Tulamben, Bali",
+  "imgWreck": "../assets/naufragio/Nau_UssLiberty.jpeg",
+  "linkWreck": "https://pt.wikipedia.org/wiki/Incidente_do_USS_Liberty"
+},
+{
+  "tituloWreck": "Endurance",
+  "localWreck": "Mar de Weddell, Antártida",
+  "imgWreck": "../assets/naufragio/Nau_Endurance.jpeg",
+  "linkWreck": "https://pt.wikipedia.org/wiki/Endurance_(navio)#:~:text=improvisado%20no%20gelo.-,Descoberta%20em%202022,3%20008%20metros%20de%20profundidade"
+}
+]
