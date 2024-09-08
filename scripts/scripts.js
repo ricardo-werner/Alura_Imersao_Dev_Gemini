@@ -1,21 +1,39 @@
 import carregarTextos from "./text.js";
-carregarTextos("textos.json", "tituloPagina", "textoPagina", "citacaoPagina");
+carregarTextos(
+  "./filesJSON/textos.json",
+  "tituloPagina",
+  "textoPagina",
+  "citacaoPagina"
+);
 
-import { populateGrid } from "./wreck.js";
-// Função para buscar os dados do JSON
-async function fetchData() {
-  const response = await fetch("../wreck.json");
+import { populateGridWreck } from "./wreck.js";
+import { populateGridDive } from "./dive.js";
+
+// Função para buscar os dados do JSON com caminho dinâmico
+async function fetchData(jsonPath) {
+  const response = await fetch(jsonPath);
   const data = await response.json();
   return data;
 }
 
-fetchData()
+// Carregar dados do Wreck
+fetchData("../filesJSON/wreck.json")
   .then((data) => {
-    const gridContainer = document.querySelector(".grid-container");
-    populateGrid(data, gridContainer);
+    const gridContainer = document.querySelector(".grid-container-wreck");
+    populateGridWreck(data, gridContainer);
   })
   .catch((error) => {
-    console.error("Erro ao carregar os dados:", error);
+    console.error("Erro ao carregar os dados do Naufrágio", error);
+  });
+
+// Carregar dados do Dive
+fetchData("../filesJSON/dive.json")
+  .then((data) => {
+    const gridContainer = document.querySelector(".grid-container-dive");
+    populateGridDive(data, gridContainer);
+  })
+  .catch((error) => {
+    console.error("Erro ao carregar os dados de Mergulho", error);
   });
 
 
