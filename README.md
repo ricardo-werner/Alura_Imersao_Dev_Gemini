@@ -14,16 +14,28 @@ Foi proposto neste projeto foi criar uma página de conteúdo livre, utilizando 
 **Em Desenvolvimento**
 
 
-#### Tela do Cabeçalho
+#### Tela Principal
 
 <p align="center">
-  <img width="480" src="./assets/to_readme/tela1.PNG" alt="Tela Inicial">
+  <img width="480" src="./assets/to_readme/paginaHome.JPG" alt="Tela Inicial">
 </p>
 
-#### Tela do Conteúdo
+#### Tela Pontos de Mergulho
 
 <p align="center">
-  <img width="480" src="./assets/to_readme/tela2.PNG" alt="Tela Inicial">
+  <img width="480" src="./assets/to_readme/paginaDive.JPG" alt="Tela da página Mergulho">
+</p>
+
+#### Tela Naufrágios
+
+<p align="center">
+  <img width="480" src="./assets/to_readme/paginaWreck.JPG" alt="Tela da página Naufrágiosl">
+</p>
+
+#### Tela Estrutura do Código
+
+<p align="center">
+  <img width="480" src="./assets/to_readme/estruturaCodigo.JPG" alt="Tela Estrutura do Código">
 </p>
 
 #### Pagina de acesso pelo deploy no Github
@@ -36,15 +48,15 @@ Foi proposto neste projeto foi criar uma página de conteúdo livre, utilizando 
 
 Otimizando a gestão de conteúdos textuais através de JavaScript
 
-A minha ideia inicial, era de desenvolver uma página que vizava a facilidade de manutenção futura e otimizar a gestão de conteúdos textuais, tornando-o mais dinâmico e fácil de manter. Para isso, com a ajuda do Google Gemini, desenvolvemos uma solução personalizada utilizando JavaScript e a biblioteca Fetch API. A principal funcionalidade consiste em carregar dados de um arquivo JSON e renderizá-los diretamente nas páginas HTML, eliminando a necessidade de editar o código manualmente a cada atualização.
+A minha ideia inicial, era de desenvolver uma página que vizava a facilidade de manutenção futura e otimizar a gestão de conteúdos textuais e de imagens tornando-o mais dinâmico e fácil de manter. Para isso, com a ajuda do Google Gemini, desenvolvemos uma solução personalizada utilizando JavaScript e a biblioteca Fetch API. A principal funcionalidade consiste em carregar dados de um arquivo JSON e renderizá-los diretamente nas páginas HTML, eliminando a necessidade de editar o código manualmente a cada atualização.
 
 Desafios e Soluções
 
-Um dos principais desafios foi garantir a correta formatação dos textos, especialmente em relação às quebras de linha. Para solucionar este problema, implementamos um mecanismo de substituição de caracteres de nova linha (\n) por tags HTML <br>, garantindo assim uma apresentação visual mais agradável e consistente.
+Um dos principais desafios foi garantir o carregamento dos dados dos arquivos.json separadamente e a correta formatação dos textos, especialmente em relação às quebras de linha. Para solucionar este problema, implementamos um mecanismo de substituição de caracteres de nova linha (\n) por tags HTML <br>, garantindo assim uma apresentação visual mais agradável e consistente.
 
 Resultados e Próximos Passos
 
-A implementação desta solução trouxe diversos benefícios, como a centralização dos conteúdos em um único arquivo, a agilidade na atualização da página e a redução de erros humanos. Como próximos passos, planejo expandir a funcionalidade de cadastrar novos pontos de mergulho e naufrágios, centralizar todos os cadastros em uma tabela com campo de pesquisa e explorar a possibilidade de utilizar outras boas práticas para a manutenção do código.
+A implementação desta solução trouxe diversos benefícios, como a centralização dos conteúdos em arquivos específicos, a agilidade na atualização das páginas e a redução de erros humanos. Como próximos passos, planejo adicionar outros assuntos relacionados ao oceano e explorar a possibilidade de utilizar outras boas práticas para a manutenção do código.
 
 ### 📝 Requisitos da Aplicação
 
