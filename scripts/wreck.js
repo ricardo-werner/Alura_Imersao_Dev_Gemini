@@ -51,8 +51,8 @@ function createGridItem(wreck) {
 }
 
 // Função principal
-async function populateGrid() {
-  const response = await fetch("../wreck.json");
+async function populateGridWreck() {
+  const response = await fetch("../filesJSON/wreck.json");
   const data = await response.json();
   const gridContainer = document.querySelector(".grid-container-wreck");
 
@@ -60,6 +60,9 @@ async function populateGrid() {
     const gridItem = createGridItem(wreck);
     gridContainer.appendChild(gridItem);
   }
+
+  console.log(data);
 }
 
-export { populateGrid };
+export { populateGridWreck };
+
