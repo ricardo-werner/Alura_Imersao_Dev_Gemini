@@ -1,3 +1,14 @@
+// Carrega o rodapé assim que a página estiver totalmente carregada
+import { loadFooter } from "./footer.js";
+
+const isHomePage =
+  window.location.pathname === "/" ||
+  window.location.pathname === "/index.html";
+
+window.addEventListener("load", () => {
+  loadFooter(isHomePage);
+});
+
 import carregarTextos from "./text.js";
 carregarTextos(
   "./filesJSON/textos.json",
@@ -35,13 +46,3 @@ fetchData("../filesJSON/dive.json")
   .catch((error) => {
     console.error("Erro ao carregar os dados de Mergulho", error);
   });
-
-
-// Carrega o rodapé assim que a página estiver totalmente carregada
-import { loadFooter } from "./footer.js";
-
-const isHomePage = window.location.pathname === "/index.html";
-
-window.addEventListener("DOMContentLoaded", () => {
-  loadFooter(isHomePage);
-});
