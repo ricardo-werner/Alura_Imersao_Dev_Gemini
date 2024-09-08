@@ -41,7 +41,7 @@ Foi proposto neste projeto foi criar uma página de conteúdo livre, utilizando 
 #### Pagina de acesso pelo deploy no Github
 
 <p>
-  https://ricardo-werner.github.io/Alura_Imersao_Dev_Gemini/
+
 </p>
 
 ### 🧩 Desafio
