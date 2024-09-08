@@ -1,0 +1,32 @@
+[
+  {
+    "titleDive": "Cidade Submersa de Heracleion, Egito",
+    "linkDive": "https://aventurasnahistoria.com.br/noticias/galeria/historia-a-cidade-submersa-de-heracleion-egito-antigo.phtml",
+    "imgDive": "../assets/mergulho/heracleion.jpeg",
+    "descriptionDive": "Cidade Submersa de Heracleion, Egito: Descoberta em 2000, essa antiga cidade portuária oferece um vislumbre da civilização egípcia no Mar Mediterrâneo."
+  },
+  {
+    "titleDive": "Pavlopetri, Grécia",
+    "linkDive": "https://aventurasnahistoria.com.br/noticias/reportagem/impressionante-cidade-submersa-de-pavlopetri-uma-das-mais-antigas-do-mundo.phtml",
+    "imgDive": "../assets/mergulho/pavlopetri.jpeg",
+    "descriptionDive": "Considerada a cidade submersa mais antiga da Europa, Pavlopetri data do período micênico e oferece um testemunho da vida cotidiana na Grécia antiga."
+  },
+  {
+    "titleDive": "Baia de Caesarea, Israrel",
+    "linkDive": "https://www.bbc.com/portuguese/vert-tra-42202070",
+    "imgDive": "../assets/mergulho/baiaCaesarea.jpeg",
+    "descriptionDive": "Antigo porto romano, a Baía de Caesarea abriga ruínas de um hipódromo, um teatro e um porto, além de diversos artefatos históricos."
+  },
+  {
+    "titleDive": "Yonaguni Monument, Japão",
+    "linkDive": "https://pt.wikipedia.org/wiki/Estruturas_de_Yonaguni",
+    "imgDive": "../assets/mergulho/yonaguni.jpeg",
+    "descriptionDive": "Uma formação rochosa submersa de origem natural ou artificial, o Yonaguni Monument intriga pesquisadores e mergulhadores há décadas."
+  },
+  {
+    "titleDive": "Baia de Chetumal, México",
+    "linkDive": "https://pt.wikipedia.org/wiki/Ba%C3%ADa_de_Chetumal",
+    "imgDive": "../assets/mergulho/baiaChetumal.jpeg",
+    "descriptionDive": "Essa região abriga diversos sítios arqueológicos submersos da civilização maia, incluindo estruturas e artefatos."
+  }
+]
