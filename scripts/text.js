@@ -1,13 +1,13 @@
 // Carregar o arquivo JSON
 // carregarTextos.js
 async function carregarTextos(
-  arquivoJson,
+  arquivosJson = "../filesJson/textos.json",
   elementoTitulo,
   elementoDescricao,
   elementoCitacao
 ) {
   try {
-    const response = await fetch(arquivoJson);
+    const response = await fetch(arquivosJson);
     const data = await response.json();
 
     // Atualizar o título e a descrição como antes
