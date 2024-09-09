@@ -11,7 +11,7 @@ window.addEventListener("load", () => {
 
 import { carregarTextos } from "./text.js";
 carregarTextos(
-  "../filesJSON/textos.json",
+  "./filesJSON/textos.json",
   "tituloPagina",
   "textoPagina",
   "citacaoPagina"
