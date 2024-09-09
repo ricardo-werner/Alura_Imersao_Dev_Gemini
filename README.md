@@ -45,8 +45,6 @@ Foi proposto neste projeto foi criar uma página de conteúdo livre, utilizando 
 >
 </a>
 
-</p>
-
 ### 🧩 Desafio
 
 Otimizando a gestão de conteúdos textuais através de JavaScript
