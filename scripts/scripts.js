@@ -9,9 +9,9 @@ window.addEventListener("load", () => {
   loadFooter(isHomePage);
 });
 
-import carregarTextos from "./text.js";
+import { carregarTextos } from "./text.js";
 carregarTextos(
-  "./filesJSON/textos.json",
+  "../filesJSON/textos.json",
   "tituloPagina",
   "textoPagina",
   "citacaoPagina"
