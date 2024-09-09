@@ -86,7 +86,7 @@ No desenvolvimento desta aplicação, foram aplicados os seguintes conceitos:
 - **Visual Studio Code**
 - **HTML**
 - **CSS**
-- **JavaScript**
+- **Javascript**
 - **Google Gemini**
 
 ### 💡 Reflexões
