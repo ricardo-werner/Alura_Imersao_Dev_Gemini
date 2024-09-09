@@ -47,9 +47,9 @@ Foi proposto neste projeto foi criar uma página de conteúdo livre, utilizando 
 
 ### 🧩 Desafio
 
-Otimizando a gestão de conteúdos textuais através de JavaScript
+Otimizando a gestão de conteúdos textuais através de Javascript
 
-A minha ideia inicial, era de desenvolver uma página que vizava a facilidade de manutenção futura e otimizar a gestão de conteúdos textuais e de imagens tornando-o mais dinâmico e fácil de manter. Para isso, com a ajuda do Google Gemini, desenvolvemos uma solução personalizada utilizando JavaScript e a biblioteca Fetch API. A principal funcionalidade consiste em carregar dados de um arquivo JSON e renderizá-los diretamente nas páginas HTML, eliminando a necessidade de editar o código manualmente a cada atualização.
+A minha ideia inicial, era de desenvolver uma página que vizava a facilidade de manutenção futura e otimizar a gestão de conteúdos textuais e de imagens tornando-o mais dinâmico e fácil de manter. Para isso, com a ajuda do Google Gemini, desenvolvemos uma solução personalizada utilizando Javascript e a biblioteca Fetch API. A principal funcionalidade consiste em carregar dados de um arquivo JSON e renderizá-los diretamente nas páginas HTML, eliminando a necessidade de editar o código manualmente a cada atualização.
 
 Desafios e Soluções
 
@@ -63,9 +63,9 @@ A implementação desta solução trouxe diversos benefícios, como a centraliza
 
 | Item | Descrição                                                                 |
 | ---- | ------------------------------------------------------------------------- |
-| 1    | A aplicação deve ser desenvolvida em HTML, CSS e JavaScript.              |
+| 1    | A aplicação deve ser desenvolvida em HTML, CSS e Javascript.              |
 | 2    | A aplicação deve utilizar apoio da IA Gemini (Google)                     |
-| 3    | Modelagem do layout, formatos, tipografias, cores e organização livregma. |
+| 3    | Modelagem do layout, formatos, tipografias, cores e organização livre.    |
 
 |
 
@@ -77,7 +77,7 @@ No desenvolvimento desta aplicação, foram aplicados os seguintes conceitos:
 | ---- | --------------------------------------------------- |
 | 1    | HTML                                                |
 | 2    | CSS                                                 |
-| 3    | JavaScript                                          |
+| 3    | Javascript                                          |
 | 4    | IA Gemini (Google)                                  |
 | 5    | Aplicação de estruturação para manutenção do código |
 
@@ -86,12 +86,12 @@ No desenvolvimento desta aplicação, foram aplicados os seguintes conceitos:
 - **Visual Studio Code**
 - **HTML**
 - **CSS**
-- **JavaScript**
+- **Javascript**
 - **Google Gemini**
 
 ### 💡 Reflexões
 
-Desenvolver este projeto foi uma experiência extremamente enriquecedora, proporcionando um aprofundamento significativo nas práticas de desenvolvimento web. Foi possível explorar a flexibilidade do HTML, CSS e JavaScript, além de refletir sobre a importância de uma estruturação inteligente para facilitar a manutenção futura das aplicações.
+Desenvolver este projeto foi uma experiência extremamente enriquecedora, proporcionando um aprofundamento significativo nas práticas de desenvolvimento web. Foi possível explorar a flexibilidade do HTML, CSS e Javascript, além de refletir sobre a importância de uma estruturação inteligente para facilitar a manutenção futura das aplicações.
 
 ### 📦 Como Executar o Projeto
 
