@@ -1,6 +1,6 @@
 // Carregar o arquivo JSON
 // carregarTextos.js
-async function carregarTextos(
+export async function carregarTextos(
   arquivosJson = "../filesJson/textos.json",
   elementoTitulo,
   elementoDescricao,
@@ -27,4 +27,4 @@ async function carregarTextos(
   }
 }
 
-export default carregarTextos;
+
