@@ -38,9 +38,12 @@ Foi proposto neste projeto foi criar uma página de conteúdo livre, utilizando 
   <img width="480" src="./assets/to_readme/estruturaCodigo.JPG" alt="Tela Estrutura do Código">
 </p>
 
-#### Pagina de acesso pelo deploy no Github
+#### Pagina de acesso do deploy pelo Vercel
 
-<p>
+<a 
+  href="https://alura-imersao-dev-gemini-pied.vercel.app/" target="_blank"
+>
+</a>
 
 </p>
 
