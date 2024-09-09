@@ -13,15 +13,15 @@ function createGridItem(wreck) {
     const gridItem = createElement("div", "", { class: "grid-item" });
 
     // Título
-    const title = createElement("h3", wreck.tituloWreck);
+    const title = createElement("h3", wreck.titleWreck);
 
     // Localização
-    const location = createElement("span", wreck.localWreck);
+    const location = createElement("p", wreck.localWreck);
 
     // Imagem
     const image = createElement("img", "", {
         src: wreck.imgWreck,
-        alt: wreck.tituloWreck
+        alt: wreck.titleWreck
     });
 
     // Criando o link

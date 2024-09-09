@@ -15,29 +15,30 @@ function createGridItem(dive) {
   // Título
   const title = createElement("h3", dive.titleDive);
 
+  // Localização
+  const location = createElement("p", dive.localDive);
+
   // Imagem
   const image = createElement("img", "", {
     src: dive.imgDive,
-    alt: dive.tituloDive,
+    alt: dive.titleDive,
   });
 
-  // Criando o link
-  const link = createElement("a", "", {
+  const link = createElement("a", "Clique aqui - página do mergulho", {
     href: dive.linkDive,
     target: "_blank",
     class: "link",
   });
 
-  // Envolvendo a imagem com o link
-  link.appendChild(image);
-
-  // Localização
-  const location = createElement("p", dive.descriptionDive);
+  // Envolvendo o link dentro de uma tag 'label'
+  const label = document.createElement("label");
+  label.appendChild(link); // Inserindo o link dentro do 'label'
 
   // Montando a estrutura do gridItem com os elementos aninhados
   gridItem.appendChild(title);
-  gridItem.appendChild(link); // Agora o link envolve a imagem
   gridItem.appendChild(location);
+  gridItem.appendChild(image);
+  gridItem.appendChild(label); // Adicionando o 'label' com o link dentro
 
   console.log(gridItem);
   return gridItem;
