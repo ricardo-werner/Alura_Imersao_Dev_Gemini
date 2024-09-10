@@ -40,10 +40,9 @@ Foi proposto neste projeto foi criar uma página de conteúdo livre, utilizando 
 
 #### Pagina de acesso do deploy pelo Vercel
 
-<a 
-  href="https://alura-imersao-dev-gemini-pied.vercel.app/" target="_blank"
->
-</a>
+<p> 
+  <a href="https://alura-imersao-dev-gemini-pied.vercel.app/" target="_blank">https://alura-imersao-dev-gemini-pied.vercel.app/</a>
+</p>
 
 ### 🧩 Desafio
 
