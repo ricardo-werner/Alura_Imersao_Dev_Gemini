@@ -11,7 +11,7 @@ Foi proposto neste projeto foi criar uma página de conteúdo livre, utilizando 
 
 ### ✅ Status do Projeto
 
-**Em Desenvolvimento**
+**Concluído**
 
 
 #### Tela Principal
