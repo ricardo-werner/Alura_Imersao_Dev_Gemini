@@ -87,3 +87,11 @@ body {
   text-decoration: none;
   color: var(--text-color-label);
 }
+
+.no-results-message {
+  color: #fa0404;
+  font-weight: bold;
+  text-align: start;
+  margin-top: 0.625rem;
+}
+
